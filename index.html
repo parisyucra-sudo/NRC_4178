@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Styles2.css" />
+  </head>
+  <body>
+    <!--Hola-->>
+    <nav class="topHeader">
+      <a href="" class="logo">
+        <img width="50" height="50" src="Imagenes/logo_upc_red.png" alt=""/>
+      <ul class="Menu-Horizontal">
+        <li><a href="">Promociones</a></li>
+        <li>
+          <a href="">Soluciones</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Serv. finacieros</a></li>
+            <li><a href="">jsjsjsjjsjj</a></li>
+          </ul>
+        </li>
+        <li><a href="">Privilegios</a></li>
+        <li><a href="">Canales</a></li>
+        <li><a href="">Contactanos</a></li>
+      </ul>
+    </nav>
+    <!--s11 clase Formularios-->
+     <!--INCIA EL FORM -->
+     <section class = "seccion formulario" id = "contactanos">
+      <div class = "div cont formulario">
+        <!--DIV 1 INPUT = TEXT-->
+        <div class = "campo">
+        </div>
+      <label for = "nombre"> Nombres completos:</label>
+      <input type = "text" id = "nombre" name ="nombre" placeholder = "ingrese sus nombres"> 
+      </div>   
+      <!--DIV 2 LISTA DESOLEGABLE-->
+      <div class = "campo">
+        <label for = "nombre"> Pais: </label>
+        <select id= "pais" name = "pais">
+          <option value ="">Seleccione un pais </option>
+          <option value = "peru">Peru </option>
+          <option value = "argentina">Aregentina</option>
+        </select>
+      </div>
+      <!--DIV 3 CHECKBOX-->
+      <div class = "campo">
+        <label> intereses</label>
+        <ul class = "lista checkbox">
+          <li><label><input type = "checkbox" name ="Intereses" value ="a"> NOOO</label></li>
+          <li><label><input type = "checkbox" name ="Vision" value ="a"> zzzz</label></li>
+          <li><label><input type = "checkbox" name ="Mision" value ="a"> no se que poner</label></li>
+          <li><label><input type = "checkbox" name ="Valores" value ="a"> zzz otra vez</label></li>
+        </ul>
+      </div>
+      <!--DIV 4 RADIO-->
+      <div class ="campo">
+        <label>SEXO</label>
+        <ul class = "lista radio">
+          <li><label><input type = "checkbox" name ="Radio" value ="a"> no se que poner</label></li>
+          <li><label><input type = "checkbox" name ="Radio" value ="a"> zzz otra vez por segunda vex aqui</label></li>
+      </div>
+     <!-- PIE DE PAGINA -->
+
+     <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img width="50" height="50"
+              src="Imagenes/logo.svg"
+              alt="Logo"
+              class="footer-logo"
+            />
+            <p>Universidad de Lima</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/3.politica-privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="LeyDeProteccionDeDatos/Beneficiario+final+BCP.pdf">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="LeyDeProteccionDeDatos/obtenerDocumento.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
