@@ -24,12 +24,20 @@
 }
 
 .login-box h2 {
-  margin-bottom: 1.5625rem; /* 25px */
+  margin-bottom: 1.5625rem;
   color: #333;
   font-size: 1.8rem;
   font-family: "Playwrite NZ Guides", cursive;
 }
 
+.input-group label[for="email"] {
+  color: chartreuse;
+  font-family: "Nabla", system-ui;
+}
+
+.input-group label[for="password"] {
+  font-family: "Bungee Spice", sans-serif;
+}
 /* División para agrupar Label e Input */
 .input-group {
   margin-bottom: 1.25rem; /* 20px */

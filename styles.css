@@ -29,7 +29,6 @@ h1 {
 .Menu-Horizontal {
   list-style: none;
   display: flex;
-  /* Usar el 100% del espacio disponible en el topHeader */
   width: 100%;
   justify-content: space-around;
 }
@@ -37,7 +36,8 @@ h1 {
 .Menu-Horizontal li a {
   text-decoration: none;
   padding: 0.938rem 1.25rem;
-  color: black;
+  color: rgb(255, 254, 254);
+  font-family: "Playwrite NZ Guides", cursive;
 }
 
 /* Submenú Vertical */
